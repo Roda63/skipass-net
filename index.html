@@ -1,0 +1,743 @@
+<!doctype html>
+<html class="no-js"  lang="en">
+
+	<head>
+		<!-- META DATA -->
+		<meta charset="utf-8">
+		<abbr title="Ski Pass Net"><title>Ski Pass Net | Početna </title></abbr>
+		<meta name="desription" content="Ski Pass Net je jedinstveno mesto na kom online možete isplanirati svoje zimovanje"/>
+		<meta name="keywords" content="zima, zimovanje, skijanje, ski pass, aranžmani, skijališta, sezona"/>
+		<meta name="author" content="Aleksandar Rodić"/>
+		<meta name="copyright" content="Ski Pass Net"/>
+		<meta name="language" content="sr"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+		<!-- favicon img -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+		<!--font-awesome.min.css-->
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+		<!--animate.css-->
+		<link rel="stylesheet" href="assets/css/animate.css" />
+		<!--hover.css-->
+		<link rel="stylesheet" href="assets/css/hover-min.css">
+		<!--datepicker.css-->
+		<link rel="stylesheet"  href="assets/css/datepicker.css" >
+		<!--owl.carousel.css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css"/>
+		<!-- range css-->
+        <link rel="stylesheet" href="assets/css/jquery-ui.min.css" />
+		<!--bootstrap.min.css-->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css"/>
+		<!--responsive.css-->
+		<link rel="stylesheet" href="assets/css/responsive.css" />
+		<!--style.css-->
+		<link rel="stylesheet" href="assets/css/style.css" />
+	</head>
+
+	<body>
+		<!-- main-menu Start -->
+		<header class="top-area">
+			<div class="header-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-2">
+							<div class="logo">
+								<a href="index.html">
+									<span>SkiPass</span>Net
+								</a>
+							</div><!-- /.logo-->
+						</div><!-- /.col-->
+						<div class="col-sm-10">
+							<div class="main-menu">
+							
+								<!-- Brand and toggle get grouped for better mobile display -->
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" id="resBtn">
+										<i class="fa fa-bars"></i>
+									</button><!-- / button-->
+								</div><!-- /.navbar-header-->
+								<div class="collapse navbar-collapse">		  
+									<ul id="start-nav" class="nav navbar-nav navbar-right"></ul>
+								</div><!-- /.navbar-collapse -->
+							</div><!-- /.main-menu-->
+						</div><!-- /.col-->
+					</div><!-- /.row -->
+					<div class="home-border"></div><!-- /.home-border-->
+				</div><!-- /.container-->
+			</div><!-- /.header-area -->
+
+		</header><!-- /.top-area-->
+		<!-- main-menu End -->
+		
+		<!--about-us start -->
+		<section id="home" class="about-us">
+			<div class="container">
+				<div class="about-us-content">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="single-about-us">
+								<div class="about-us-txt">
+									<h2 id="first-title"></h2>
+									<div class="about-btn"></div><!--/.about-btn-->
+								</div><!--/.about-us-txt-->
+							</div><!--/.single-about-us-->
+						</div><!--/.col-->
+						<div class="col-sm-0">
+							
+						</div><!--/.col-->
+					</div><!--/.row-->
+				</div><!--/.about-us-content-->
+			</div><!--/.container-->
+		</section><!--/.about-us-->
+		<!--about-us end -->
+
+		<!--travel-box start-->
+		<section id="pass"  class="travel-box">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-md-12">
+        				<div class="single-travel-boxes">
+        					<div id="desc-tabs" class="desc-tabs">
+
+								<ul class="nav nav-tabs" role="tablist">
+
+									<li role="presentation" class="active">
+									 	<a href="#tours" aria-controls="tours" role="tab" data-toggle="tab">
+									 		<i class="fa fa-tree"></i>
+									 		Kalkulator cena
+									 	</a>
+									</li>
+									
+									<li role="presentation" class="hidden-sm hidden-xs">
+										<a href="#hotels" aria-controls="hotels" id="datePrint" role="tab" data-toggle="tab">
+											
+										</a>
+									</li>
+
+								</ul>
+
+								<!-- Tab panes -->
+								<div class="tab-content">
+
+									<div role="tabpanel" class="tab-pane active fade in" id="tours">
+										<div class="tab-para">
+
+											<div class="row">
+												<div class="col-lg-4 col-md-4 col-sm-12">
+													<div class="single-tab-select-box">
+
+														<h2>Skijalište</h2>
+
+														<div id="skiCenterSelect"  class="travel-select-icon"></div><!-- /.travel-select-icon -->
+
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-3 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>Početak </h2>
+														<div class="travel-check-icon">
+															<form action="#">
+																<input type="text" name="check_in" class="form-control" id="dateStart" data-toggle="datepicker" placeholder="01 -12 - 2021 ">
+															</form>
+														</div><!-- /.travel-check-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-3 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>Kraj</h2>
+														<div class="travel-check-icon">
+															<form action="#">
+																<input type="text" name="check_out" class="form-control"  data-toggle="datepicker" id="dateEnd" placeholder="31 -12 - 2021 ">
+															</form>
+														</div><!-- /.travel-check-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-1 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>Odrasli</h2>
+														<div id="parent" class="travel-select-icon">
+															
+														</div><!-- /.travel-select-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-1 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>Deca</h2>
+														<div id="children" class="travel-select-icon">
+															
+														</div><!-- /.travel-select-icon -->
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+											</div><!--/.row-->
+
+											<!--Drugi red-->
+											<div class="row">
+												<div class="col-lg-4 col-md-4 col-sm-12">
+													<div class="single-tab-select-box">
+														<h2>Email</h2>
+														<div>
+															<input type="text" placeholder="Vaš E-mail" id="email" name="email" class="form-control text-form"/>
+														</div>
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-3 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>Ime</h2>
+														<div>
+															<input type="text" id="name" name="name" placeholder="Vaše ime" class="form-control text-form"/>
+														</div>
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-3 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>Prezime</h2>
+														<div>
+															<input type="text" id="lastName" name="lastName" placeholder="Vaše prezime" class="form-control text-form"/>
+														</div>
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-4 col-md-4 col-sm-12">
+													<div class="single-tab-select-box">
+														<h2>Broj telefona</h2>
+														<div>
+															<input type="text" placeholder="06X-XXX-XXXX" id="phone" name="phone" class="form-control text-form"/>
+														</div>
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												
+
+											</div><!--/.row-->
+
+											<div class="row end-form-block">
+												<div class="col-sm-5">
+													<div class="travel-budget">
+														<div class="row">
+															<div class="col-md-3 col-sm-4">
+																<h3>Ukupno: </h3>
+															</div><!--/.col-->
+															<div class="co-md-9 col-sm-8">
+																<div class="travel-filter">
+																	<div class="info_widget">
+																		<div class="price_filter">
+																			<h2 id="sum">0,00 €</h2>
+																	
+																		</div><!--/.price-filter-->
+																	</div><!--/.info_widget-->
+																</div><!--/.travel-filter-->
+															</div><!--/.col-->
+														</div><!--/.row-->
+													</div><!--/.travel-budget-->
+												</div><!--/.col-->
+												<div class="clo-sm-7">
+													<div class="about-btn travel-mrt-0 pull-right">
+														<button id="submit"  class="about-view travel-btn">
+															pošalji	
+														</button><!--/.travel-btn-->
+													</div><!--/.about-btn-->
+												</div><!--/.col-->
+
+											</div><!--/.row-->
+
+										</div><!--/.tab-para-->
+
+									</div><!--/.tabpannel-->
+
+									
+
+								</div><!--/.tab content-->
+							</div><!--/.desc-tabs-->
+        				</div><!--/.single-travel-box-->
+        			</div><!--/.col-->
+        		</div><!--/.row-->
+        	</div><!--/.container-->
+
+        </section><!--/.travel-box-->
+		<!--travel-box end-->
+
+        <!--service start-->
+		<section id="service" class="service"></section><!--/.service-->
+		<!--service end-->
+
+		<!--blog start-->
+		<section id="skiCenter" class="blog">
+			<div class="container">
+				<div class="blog-details">
+						<div class="gallary-header text-center">
+							<h2>Ski centri</h2>
+							<p>Najveći ski centri Srbije</p>
+						</div><!--/.gallery-header-->
+						<div class="blog-content">
+							<div id="ski-ski" class="row">
+
+								
+							</div><!--/.row-->
+						</div><!--/.blog-content-->
+					</div><!--/.blog-details-->
+				</div><!--/.container-->
+
+		</section><!--/.blog-->
+		<!--blog end-->
+
+		<!--special-offer start-->
+		<section id="spo" class="special-offer">
+			<div class="container">
+				<div class="special-offer-content">
+					<div class="row">
+						<div class="col-sm-8">
+							<div class="single-special-offer">
+								<div class="single-special-offer-txt">
+									<h2>kopaonik</h2>
+									<div class="packages-review special-offer-review">
+										<p>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<span>2544 glasova</span>
+										</p>
+									</div><!--/.packages-review-->
+									<div class="packages-para special-offer-para">
+										<p>
+											<span>
+												<i class="fa fa-angle-right"></i> 5 dana 6 noći
+											</span>
+											<span>
+												<i class="fa fa-angle-right"></i> 2 osobe
+											</span>
+											<span>
+												<i class="fa fa-angle-right"></i>  5 zvezdica
+											</span>
+										</p>
+										<p>
+											<span>
+												<i class="fa fa-angle-right"></i>  prevoz
+											</span>
+											<span>
+												<i class="fa fa-angle-right"></i>  hrana
+											</span>  
+										</p>
+										<p class="offer-para">
+											Nudimo vam neverovatan popust za aranžman na Kopaoniku za dvoje. Hotel sa čak pet zvezdica, 5 dana, 6 noćenja, pun pansion. Sadržaj koji će vaš odmor učiniti nezaboravnim <br> Iskoristite ovu priliku i kreirajte turu po vašoj meri.
+									</div><!--/.packages-para-->
+									<div class="offer-btn-group">
+										<div class="about-btn">
+											<a href="404.html"><button  class="about-view packages-btn offfer-btn">
+												detalji
+											</button></a>
+										</div><!--/.about-btn-->
+										<div class="about-btn">
+											<a href="#pass"><button  class="about-view packages-btn">
+												rezervacija
+											</button></a>
+										</div><!--/.about-btn-->
+									</div><!--/.offer-btn-group-->
+								</div><!--/.single-special-offer-txt-->
+							</div><!--/.single-special-offer-->
+						</div><!--/.col-->
+						<div class="col-sm-4">
+							<div class="single-special-offer">
+								<div class="single-special-offer-bg">
+									<img src="assets/images/offer/offer-shape.png" alt="offer-shape">
+								</div><!--/.single-special-offer-bg-->
+								<div class="single-special-shape-txt">
+									<h3>specijalan</br> popust</h3>
+									<h4><span>40%</span><br>popusta</h4>
+									<p><span>389€</span><br>regularno 580€</p>
+								</div><!--/.single-special-shape-txt-->
+							</div><!--/.single-special-offer-->
+						</div><!--/.col-->
+					</div><!--/.row-->
+				</div><!--/.special-offer-content-->
+			</div><!--/.container-->
+
+		</section><!--/.special-offer end-->
+		<!--special-offer end-->
+
+		<!--galley start-->
+		<section id="gallery" class="gallery">
+			<div class="container">
+				<div class="gallery-details">
+					<div class="gallary-header text-center">
+						<h2>
+							Top destinacije
+						</h2>
+						<p>
+							Neke od najposećenijih destinacija do sada 
+						</p>
+					</div><!--/.gallery-header-->
+					<div class="gallery-box">
+						<div class="gallery-content">
+						  	<div class="filtr-container">
+						  		<div id="gll" class="row">
+
+						  			</div><!-- /.col -->
+
+						  		</div><!-- /.row -->
+
+						  	</div><!-- /.filtr-container-->
+						</div><!-- /.gallery-content -->
+					</div><!--/.galley-box-->
+				</div><!--/.gallery-details-->
+			</div><!--/.container-->
+
+		</section><!--/.gallery-->
+		<!--gallery end-->
+
+		<!--discount-offer start-->
+		<section class="discount-offer">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="dicount-offer-content text-center">
+							<h2>popust na svaku rezervaciju i kupovinu preko našeg sajta, samo do 26 decembra 2021</h2>
+							<div class="campaign-timer">
+								<div id="timer">
+									<div class="time time-after" id="days">
+										<span></span>
+									</div><!--/.time-->
+									<div class="time time-after" id="hours">
+
+									</div><!--/.time-->
+									<div class="time time-after" id="minutes">
+
+									</div><!--/.time-->
+									<div class="time" id="seconds">
+
+									</div><!--/.time-->
+								</div><!--/.timer-->
+							</div><!--/.campaign-timer-->
+							<div class="about-btn">
+								<a href="#pass"><button  class="about-view discount-offer-btn">
+									rezerviši
+								</button></a>
+							</div><!--/.about-btn-->
+
+
+						</div><!-- /.dicount-offer-content-->
+					</div><!-- /.col-->
+				</div><!-- /.row-->
+			</div><!-- /.container-->
+
+		</section><!-- /.discount-offer-->
+		<!--discount-offer end-->
+
+		<!--packages start-->
+		<section id="pack" class="packages">
+			<div class="container">
+				<div class="gallary-header text-center">
+					<h2>
+						Naša ponuda aranžmana
+					</h2>
+					<p>
+						Aranžmani koji su trenutno na promociji 
+					</p>
+				</div><!--/.gallery-header-->
+				<div class="packages-content">
+					<div id="packs-print" class="row">
+
+					</div><!--/.col-->
+					<div id="packs-print-more" class="row">
+
+					</div>
+					<button id="show-more" class='about-view packages-btn'>Više</button>
+				</div><!--/.packages-content-->
+			</div><!--/.container-->
+
+		</section><!--/.packages-->
+		<!--packages end-->
+
+		<!-- testemonial Start -->
+		<section id="blog" class="testemonial">
+			<div class="container">
+
+				<div class="gallary-header text-center">
+					<h2>
+						utisci korisnika
+					</h2>
+
+				</div><!--/.gallery-header-->
+
+				<div class="owl-carousel owl-theme" id="testemonial-carousel">
+
+					<div class='home1-testm item'>
+						<div class='home1-testm-single text-center'>
+							<div class='home1-testm-img'><img src='assets/images/client/testimonial1.jpg' alt='Korisnik'/></div>
+							<div class='home1-testm-txt'><span class='icon section-icon'><i class='fa fa-quote-left' aria-hidden='true'></i></span>
+								<p>Kompletan odmor isplanirala sam preko ovog sajta, ski pass, aranžman... Sve je jednostavno, a provod nezaboravan.</p>
+								<h3><a href='#blog'>Nevena Pavlov</a></h3>
+								<h4>Stara planina</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="assets/images/client/testimonial2.jpg" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Sve je mnogo lakše odraditi online. Ovaj sajt je sigurno najbolja opcija za to. Preporučujem svima definitivno.
+								</p>
+								<h3>
+									<a href="#blog">
+										Ilija Arsenijević
+									</a>
+								</h3>
+								<h4>Brezovica</h4>
+							</div><!--/.home1-testm-txt-->	
+						</div><!--/.home1-testm-single-->
+
+					</div><!--/.item-->
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="assets/images/client/testimonial3.jpg" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Proveo sam sjajan odmor sa porodicom prošle godine na ovoj predivnoj planini. Puno vam hvala na savetima i podršci.
+								</p>
+								<h3>
+									<a href="#blog">
+										Marko Gojković
+									</a>
+								</h3>
+								<h4>Divčibare</h4>
+							</div><!--/.home1-testm-txt-->	
+						</div><!--/.home1-testm-single-->
+
+					</div><!--/.item-->
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="assets/images/client/testimonial4.jpg" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Prošle godine bilo je problema sa kupovinom ski pass-a na Kopaoniku. Zbog toga sam se odlučila da to uradim online.
+								</p>
+								<h3>
+									<a href="#blog">
+										Teodora Simić
+									</a>
+								</h3>
+								<h4>Kopaonik</h4>
+							</div><!--/.home1-testm-txt-->	
+						</div><!--/.home1-testm-single-->
+
+					</div><!--/.item-->
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="assets/images/client/testimonial5.jpg" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Sjajno smo se proveli prošle sezone na zimovanju. Kupili smo aranžman koji je bio na promociji. Sve pohvale.
+								</p>
+								<h3>
+									<a href="#blog">
+										pavle manić
+									</a>
+								</h3>
+								<h4>Tornik</h4>
+							</div><!--/.home1-testm-txt-->	
+						</div><!--/.home1-testm-single-->
+
+					</div><!--/.item-->
+
+					<div class="home1-testm item">
+						<div class="home1-testm-single text-center">
+							<div class="home1-testm-img">
+								<img src="assets/images/client/testimonial6.jpg" alt="img"/>
+							</div><!--/.home1-testm-img-->
+							<div class="home1-testm-txt">
+								<span class="icon section-icon">
+									<i class="fa fa-quote-left" aria-hidden="true"></i>
+								</span>
+								<p>
+									Kupila sam ski pass preko Vašeg sajta. Procedura je veoma jednostavna i brza. Nije bilo nikakvih problema. 
+								</p>
+								<h3>
+									<a href="#blog">
+										Marina Popović
+									</a>
+								</h3>
+								<h4>Golija</h4>
+							</div><!--/.home1-testm-txt-->	
+						</div><!--/.home1-testm-single-->
+
+					</div><!--/.item-->
+
+
+				</div><!--/.testemonial-carousel-->
+			</div><!--/.container-->
+
+		</section><!--/.testimonial-->	
+		<!-- testemonial End -->
+
+		<!--subscribe start-->
+		<section id="subs" class="subscribe">
+			<div class="container">
+				<div class="subscribe-title text-center">
+					<h2>
+						Pridružite nam se i budite u toku sa novostima
+					</h2>
+					<p>
+						Pratite sve aktuelnosti u vezi zimske sezone na našim planinama
+					</p>
+				</div>
+				<form id="sub-form">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+							<div class="custom-input-group">
+								<input id="subscribe" type="email" class="form-control" placeholder="Unesite Vaš E-mail ovde">
+								<button id="subscribe-btn" class="appsLand-btn subscribe-btn">Subscribe</button>
+								<div class="clearfix"></div>
+								<i class="fa fa-envelope"></i>
+							</div>
+
+						</div>
+					</div>
+				</form>
+			</div>
+
+		</section>
+		<!--subscribe end-->
+
+		<!-- footer-copyright start -->
+		<footer  class="footer-copyright">
+			<div class="container">
+				<div class="footer-content">
+					<div class="row">
+
+						<div class="col-sm-3">
+							<div class="single-footer-item">
+								<div class="footer-logo">
+									<a href="index.html">
+										<span>SkiPass</span>Net
+									</a>
+									<p>
+										sve za zimovanje
+									</p>
+								</div>
+							</div><!--/.single-footer-item-->
+						</div><!--/.col-->
+
+						<div class="col-sm-3">
+							<div class="single-footer-item">
+								<h2>linkovi</h2>
+								<div id="menu-footer" class="single-footer-txt">
+									<p><a href="index.html#skiCenter">Ski centri</a></p>
+									<p><a href="index.html#gallery">galerija</a></p>
+									<p><a href="index.html#pack">Aranžmani</a></p>
+									<p><a href="index.html#blog">blog</a></p>
+									<p><a href="index.html#subs">kontakti</a></p>
+									<p><a href="index.html#pass">ski pass</a></p>
+								</div><!--/.single-footer-txt-->
+							</div><!--/.single-footer-item-->
+
+						</div><!--/.col-->
+
+						<div class="col-sm-3">
+							<div class="single-footer-item">
+								<h2>Dodatak za sajt</h2>
+								<div class="single-footer-txt">
+									<p id="autor"><a class="site-create" href="autor.html">Autor</a></p>
+									<p class="site-create"><a  href="dokumentacija.pdf">Dokumentacija</a></p>
+									<p><a href="sitemap.xml">Site map</a></p>
+									<p><a href="robots.txt">Robots</a></p>
+									<p><a href="rss.xml">RSS</a></p>
+									
+								</div><!--/.single-footer-txt-->
+							</div><!--/.single-footer-item-->
+						</div><!--/.col-->
+
+						<div class="col-sm-3">
+							<div class="single-footer-item text-center">
+								<h2 class="text-left">kontakti</h2>
+								<div class="single-footer-txt text-left">
+									<p>+381 (64) 1234 654</p>
+									<p class="foot-email"><a href="mailto:info@skipassnet.rs">INFO@SKIPASSNET.RS</a></p>
+									<p>Kraljice Natalije 28</p>
+									<p>Beograd, Srbija</p>
+								</div><!--/.single-footer-txt-->
+							</div><!--/.single-footer-item-->
+						</div><!--/.col-->
+
+					</div><!--/.row-->
+
+				</div><!--/.footer-content-->
+				<hr>
+				<div class="foot-icons ">
+					<ul class="footer-social-links list-inline list-unstyled">
+		                <li><a href="https://facebook.com/" target="_blank" class="foot-icon-bg-1"><i class="fa fa-facebook"></i></a></li>
+		                <li><a href="https://twitter.com/" target="_blank" class="foot-icon-bg-2"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.instagram.com/" target="_blank" class="foot-icon-bg-3"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="rss.xml" target="_blank" class="foot-icon-bg-2"><i class="fa fa-rss" aria-hidden="true"></i>
+						</a></li>
+		        	</ul>
+		        	<p>&copy; 2021 <a href="#">SkiPassNet</a>. Sva prava zadržana</p>
+
+		        </div><!--/.foot-icons-->
+				<div id="scroll-Top">
+					<i class="fa fa-angle-double-up return-to-top" id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+				</div><!--/.scroll-Top-->
+			</div><!-- /.container-->
+
+		</footer><!-- /.footer-copyright-->
+		<!-- footer-copyright end -->
+
+
+		<!--SCRIPT-->
+		<!--my java script-->
+		<script type="text/javascript" src="assets/js/main.js"></script>
+
+		<script src="assets/js/jquery.js"></script>
+		<script  src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		<script  src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/bootsnav.js"></script>
+		<script src="assets/js/jquery.filterizr.min.js"></script>
+		<script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="assets/js/jquery-ui.min.js"></script>
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+        <script  src="assets/js/owl.carousel.min.js"></script>
+		<script src="assets/js/jquery.sticky.js"></script>
+        <script  src="assets/js/datepicker.js"></script>
+
+		<!--my jQuery -->
+		<script src="assets/js/custom.js"></script>
+	</body>
+</html>
